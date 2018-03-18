@@ -3,7 +3,8 @@ Different ways of load balancing Apache Solr via LBHttpSolrClient or DSE
 
 Using DataStax Enterprise 5.1 for this example: 1 Data Center (DC1) with 3 nodes with DSE Search enabled
 
-##SETUP##
+**SETUP**
+
 Create simple table and few rows of data:
 
 ``` 
