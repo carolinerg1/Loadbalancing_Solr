@@ -30,4 +30,7 @@ Test Setup:
 select * from demo.solr where solr_query = '{"q":"*:*","fq":"body:Do*"}';
 ```
 
+##Testing ##
+
+Try running demo.java with all 3 nodes up. Then take one of the nodes down to test.  Make sure it's one of the 2 contact points in your code (don't forget to update the IP addresses in the code).
 
